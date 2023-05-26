@@ -1,6 +1,7 @@
 ```asm
 # perhaps, subtracts 8 (because of suffix 'q' which means quadword of 8 bytes) 
 # from RSP and then stores the <src> value on the stack under RSP
+# pushq <src>
 pushq $2
 pushq %RAX
 ```
